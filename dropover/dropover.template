@@ -1,0 +1,24 @@
+<div class="dropover {{object-name}}-dropover">
+	<div class="dropover-header">
+		<strong class="dropover-title bold">{{title}}</strong>
+	</div>
+	<div class="dropover-items">
+		<ul class="unstyled">
+			{{#items}}
+			<li>
+				{{include media objects}}
+			</li>
+			{{/items}}
+			{{^items}}
+			<li>
+				<div class="media">
+					<p>{{ no items text }}</p>
+				</div>
+			</li>
+			{{/items}}
+		</ul>
+	</div>
+	<div class="dropover-footer center">
+		<a class="" href="{{link}}">See All</a>
+	</div>
+</div>

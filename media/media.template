@@ -1,0 +1,25 @@
+<!-- this template must be minified to remove white space -->
+<ul class="media-list unstyled">
+  <li class="media">
+    <div class="clearfix">
+      <a class="img-block" href="#">
+        <img class="img" src="{{}}" alt="{{}}" />
+      </a>
+      <div class="nbcf clearfix">
+        <div class="btn-actions">
+          <div class="align-middle align50"></div>
+          <a class="btn" href="#">Dismiss</a>
+          <a class="btn" href="#">Accept</a>
+        </div>
+        <div class="nbcf">
+          <div class="inline-block">
+            <div class="align-middle align-middle--50"></div>
+            <div class="align-middle">
+              <a href="#">{{}}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+</ul>

@@ -1,0 +1,7 @@
+<section class="sidebar">
+	<ul class="unstyled">
+		<li>
+			<a href="/" class="sidebar-link"></a>
+		</li>
+	</ul>
+</section>

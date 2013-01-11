@@ -1,0 +1,34 @@
+.dropover {
+	display: none;
+	background-color: #FFF;
+	color: #333;
+	position: absolute;
+	top: 35px;
+	right: 0;
+	z-index: 8000;
+	width: 300px;
+	border: 1px solid #CCC;
+	overflow: hidden;
+	border-radius: 3px;
+
+	&.active {
+		display: block;
+	}
+}
+
+.dropover-header {
+	padding: 8px 5px 5px;
+	border-bottom: 1px solid #CCC;
+}
+
+.dropover-items {
+	max-height: 400px;
+	overflow-y: scroll;
+}
+
+.dropover-footer {
+	display: block;
+	font-weight: bold;
+	padding: 10px 5px 8px;
+	border-top: 1px solid #CCC;
+}

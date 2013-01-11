@@ -1,0 +1,38 @@
+.media-list {
+	border: 1px solid #CCC;
+	border-radius: 3px;
+}
+
+.media {
+	padding: 5px 10px;
+	border-bottom: 1px solid #CCC;
+
+	&:last-child {
+		border: none;
+	}
+
+	.img-block {
+		float: left;
+		margin-right: 12px;
+		display: block;
+	}
+
+	.img {
+		display: block;
+	}
+
+	.btn-actions {
+		float: right;
+		margin-left: 10px;
+		display: inline-block;
+	}
+
+	.align-middle {
+		vertical-align: middle;
+		display: inline-block;
+	}
+
+	.align-middle--50 {
+		height: 50px;
+	}
+}
