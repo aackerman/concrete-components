@@ -1,0 +1,19 @@
+.overlay-bg {
+	background: #333;
+	opacity: 0.6;
+}
+
+.overlay {
+	width: 30%;
+
+	&#{-header} {
+
+		&::after {
+
+		}
+	}
+
+	&#{-footer} {
+
+	}
+}
