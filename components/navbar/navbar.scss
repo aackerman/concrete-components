@@ -1,9 +1,20 @@
 .navbar {
+  $navbar-bg: #333;
+  $navbar-link-color: #FFF;
+  $navbar-link-hover-bg: lighten($navbar-bg, 5%);
+
+  background: $navbar-bg;
   &> ul {
     &> li {
       display: inline-block;
       &> a {
-        padding: 8px 12px;
+        color: $navbar-link-color;
+        padding: 12px 20px;
+        display: inline-block;
+        &:hover {
+          background: $navbar-link-hover-bg;
+          text-decoration: none;
+        }
       }
     }
   }
