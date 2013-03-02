@@ -1,10 +1,12 @@
 $navbar-bg: #FAFAFA;
 $navbar-link-color: #777;
+$navbar-link-hover-color:darken($navbar-link-color, 10%) ;
 $navbar-link-hover-bg: darken($navbar-bg, 5%);
 
 .navbar {
   background: $navbar-bg;
   border: 1px solid #D4D4D4;
+  margin-bottom: 20px;
   @include box-shadow(0 1px 10px rgba(0, 0, 0, .1));
 
   &> ul {
@@ -31,6 +33,7 @@ $navbar-link-hover-bg: darken($navbar-bg, 5%);
   }
 
   &:hover {
+    color: $navbar-link-hover-color;
     background: $navbar-link-hover-bg;
     text-decoration: none;
   }
