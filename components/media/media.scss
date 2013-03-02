@@ -34,18 +34,27 @@
 		}
 	}
 
-	.btn-actions {
+	.media-actions {
 		float: right;
 		margin-left: 10px;
 		display: inline-block;
 	}
 
-	.align-middle {
+	.media-font-fix {
+		font-size: 0;
+	}
+
+	.media-text {
+		@include font-size(13);
+	}
+
+	.media-align {
 		vertical-align: middle;
 		display: inline-block;
 	}
 
-	.align-middle--fifty {
+	.media-align-size {
+		font-size: 0;
 		height: 50px;
 	}
 }
