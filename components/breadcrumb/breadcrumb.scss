@@ -1,5 +1,6 @@
 .breadcrumb {
   padding-left: 40px;
+  font-size: 0;
 
   .crumb {
     display: inline;
@@ -7,6 +8,16 @@
     &:hover a {
       background-position: 100% -48px;
       color: #333;
+    }
+
+    &:first-of-type a {
+      z-index: 9;
+      padding-left: 10px;
+      border-left: 1px solid #D8D8D8;
+
+      &:hover {
+        border-color: #C3C3C3;
+      }
     }
   }
 
@@ -54,16 +65,6 @@
       box-shadow: 0px 1px 2px #EFEFEF;
 
       &:after {
-        border-color: #C3C3C3;
-      }
-    }
-
-    &.first {
-      z-index: 9;
-      padding-left: 10px;
-      border-left: 1px solid #D8D8D8;
-
-      &:hover {
         border-color: #C3C3C3;
       }
     }
