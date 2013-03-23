@@ -21,6 +21,8 @@
       }
     }
 
+    // these could be removed in favor
+    // of a JS solution but I prefer pure CSS
     &:nth-of-type(2) a {
       z-index: 10;
     }
