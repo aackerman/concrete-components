@@ -1,5 +1,4 @@
 .breadcrumb {
-  padding-left: 40px;
   font-size: 0;
 
   .crumb {
@@ -13,6 +12,7 @@
 
     &:first-of-type a {
       z-index: 11;
+      margin: 0;
       padding-left: 10px;
       border-left: 1px solid #D8D8D8;
 
