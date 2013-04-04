@@ -1,0 +1,45 @@
+.flash-queue {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  z-index: 9999;
+  margin-left: -300px;
+  width: 600px;
+
+  @media (max-width: 767px) {
+    margin-left: -40%;
+    width: 80%;
+  }
+}
+
+.flash-inner {
+  display: block;
+  @include font-size(15);
+  height: 22px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  visibility: visible;
+
+  &.in {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+  }
+}
+
+.flash {
+  padding: 6px 8px;
+  color: white;
+  text-decoration: none;
+  background-color: #222;
+  border-radius: 4px;
+
+  .flash-close {
+    float: right;
+    top: -6px;
+    position: relative;
+    @include font-size(20);
+    color: #EFEFEF;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
