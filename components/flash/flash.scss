@@ -33,13 +33,30 @@
   background-color: #222;
   border-radius: 4px;
 
+  &.success {
+    background-color: #DFF0D8;
+  }
+
+  &.error {
+    background-color: #F2DEDE;
+  }
+
+  &.alert {
+    background-color: #FBEED5;
+  }
+
   .flash-close {
     float: right;
     top: -6px;
     position: relative;
+    font-weight: bold;
     @include font-size(20);
-    color: #EFEFEF;
+    color: #CDCDCD;
     opacity: 0.8;
     cursor: pointer;
+
+    &:hover {
+      color: darken(#CDCDCD, 5%);
+    }
   }
 }
